@@ -1,0 +1,51 @@
+.container{
+	width:80%;
+	margin:0 auto;
+	
+}
+
+header{
+	background-color:#dde0d7;
+	
+}
+
+header::after{			/*to fix the navigation bar*/
+	content: '';
+	display:table;
+	
+	clear:both;
+	
+}
+
+.logo{			/*logo stays in left*/
+	float:left;
+	padding:10px 0;		/*gives little space from the top*/
+}
+nav{			/*everything except logo will go to the right inside the nav tag*/
+	float:right;
+}
+
+nav ul{		/*unordered list in navigation bar*/
+	margin:0;
+	padding:0;
+	list-style:none; 	
+}
+
+nav li{
+	display: inline-block;			/*made the list items horizontal*/
+	margin-left:70px;
+	padding-top:50px;
+	font-weight:bold;
+	
+}
+
+nav ul li a{		/*do these for nav >ul> li >a 			nav a works too! */
+	color:#3e4837ff;
+	text-decoration:none;			/*deletes the underline */
+	text-transform:uppercase;
+	font-size:18px;
+}
+
+nav a:hover{			/*when the mouse is on the list items.*/
+	color:black;			
+}
