@@ -19,7 +19,7 @@
 				<img src="logo/logogreen.png" alt="logo" class="logo">
 				<nav>
 					<ul>
-						<li><a href='#'>Home</a></li>
+						<li><a href='#'>Homee</a></li>
 						<li><a href='#'>History</a></li>
 						<li><a href='#'>Things To Do</a></li>
 			
