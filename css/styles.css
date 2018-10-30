@@ -1,12 +1,13 @@
-.main-title{,
-font-style:normal;
+.main-title{
+font-style:italic;
 font-family:Georgia;
 color:#333;
-font-size:25px;
+font-size:22px;
+padding-left:23px;
 
 }
 .big-image{
-	background-image: url("try.jpg");
+	background-image: url("../images/bunudene.jpg");
 	min-height: 580px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -15,6 +16,7 @@ font-size:25px;
 	
 	position: relative;
 }
+
 
 .container{
   position: absolute;
@@ -26,6 +28,7 @@ font-size:25px;
 .topnav {
   overflow: hidden;
   background-color: #333;
+  /*position: sticky;*/
 }
 
 .topnav a {
@@ -35,6 +38,10 @@ font-size:25px;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
+   border-right:1px solid #bbb;
+   
+   
 }
 
 .topnav a:hover {
@@ -42,16 +49,46 @@ font-size:25px;
   color: black;
 }
 
+.topnav a:last-child {
+    border-right: none;
+}
+
 .logo{
 	float:right;
 	
 	background-color:white;
-	padding-left:0px;
-	border-radius: 50%; border: 2px solid #333;
+	padding-right:0px;
+	border-radius: 48%; border: 3px solid #333;
 	 /*border-radius: 25px;
    
     padding: 0px; */
-     
+     transform: translate(-25%, +22%);
 	
 	
+}
+.mera{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	height:36%;
+	width:36%;
+}
+blockquote {	
+  background: #f9f9f9;
+  border-left: 10px solid #333;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {		/* " part */
+  color: #333;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
