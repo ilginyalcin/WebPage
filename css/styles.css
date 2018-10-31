@@ -20,7 +20,7 @@ padding-left:23px;
 
 .container{
   position: absolute;
-  margin: 20px;
+  margin: 0px;	/* was 20px before*/
   width: auto;
 	
 }
@@ -28,7 +28,7 @@ padding-left:23px;
 .topnav {
   overflow: hidden;
   background-color: #333;
-  /*position: sticky;*/
+ 
 }
 
 .topnav a {
@@ -70,9 +70,23 @@ padding-left:23px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-	height:36%;
-	width:36%;
+	width:100%;
+}
+
+div.polaroid {
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left:24%;
+  
+  
+}
+
+div.containee{			/*text under the photo*/
+  text-align: center;
+  padding: 10px 20px;
+  
 }
 blockquote {	
   background: #f9f9f9;
@@ -92,3 +106,27 @@ blockquote:before {		/* " part */
 blockquote p {
   display: inline;
 }
+
+.sticky {
+  position: fixed;
+  top:0;
+ 
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#barıs_manco , #serdar_5 ,#transportation a:link {
+    color: #ff4d00;
+    background-color: transparent;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+#barıs_manco , #serdar_5 , #transportation a:visited {
+    color: 	#1ebbd7;
+    background-color: transparent;
+    text-decoration: none;
+	font-weight:bold;
+}
+
