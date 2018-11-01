@@ -9,8 +9,10 @@ padding-left:23px;
 }
 
 
+
+
 .big-image{
-	background-image: url("../images/bunudene.jpg");
+	background-image: url("../images/beach.jpeg");
 	min-height: 580px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -124,14 +126,14 @@ blockquote p {
   padding-top: 60px;
 }
 
-#barıs_manco , #serdar_5 ,#transportation a:link {
+#ido , #barıs_manco , #serdar_5 ,#transportation a:link {
     color: #ff4d00;
     background-color: transparent;
     text-decoration: none;
 	font-weight:bold;
 }
 
-#barıs_manco , #serdar_5 , #transportation a:visited {
+#ido , #barıs_manco , #serdar_5 , #transportation a:visited {
     color: 	#1ebbd7;
     background-color: transparent;
     text-decoration: none;
@@ -153,7 +155,16 @@ h2{
 td img{
 	width:300px;
 	height:195px;
+	border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 5px;
+    
 }
+
+td img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 
 table{
 	padding-left:150px;
@@ -165,3 +176,10 @@ td{
 	
 padding:25px;
 }
+
+
+
+
+
+
+
