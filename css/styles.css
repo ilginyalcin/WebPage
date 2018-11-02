@@ -1,13 +1,34 @@
+@font-face {
+   font-family: myFont;
+   src: url(font/brandon-grotesque-medium-italic-58a8a3c40866a.otf);
+   
+}
+@font-face {
+   font-family: myEmpFont;
+   src: url(font/brandon-grotesque-light-58a8a4b38001d.otf);
+   
+}
+
+* {
+   font-family: myFont;
+}
+
+em{
+	font-family:myEmpFont;
+}
+
 .main-title{
 text-align:center;
 font-style:italic;
-font-family:Georgia;
 color:#333;
 font-size:22px;
 padding-left:23px;
 
 }
 
+span{
+	margin-left:40px;
+}
 
 
 
@@ -21,6 +42,9 @@ padding-left:23px;
 	
 	position: relative;
 }
+
+
+
 
 p{
 	font-size:20px;
@@ -75,6 +99,12 @@ p{
 	
 	
 }
+
+.about-the-island li{
+	padding-left:5px;
+}
+
+
 .mera{
 	display: block;
     margin-left: auto;
@@ -176,10 +206,5 @@ td{
 	
 padding:25px;
 }
-
-
-
-
-
 
 
