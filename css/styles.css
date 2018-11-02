@@ -112,7 +112,7 @@ p{
 	width:100%;
 }
 
-div.polaroid {
+.polaroid {
   width: 40%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -122,7 +122,7 @@ div.polaroid {
   
 }
 
-div.containee{			/*text under the photo*/
+.containee{			/*text under the photo*/
   text-align: center;
   padding: 10px 20px;
   
@@ -207,4 +207,18 @@ td{
 padding:25px;
 }
 
+.column{
+	float: left;
+    width: 33.33%;
+    background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left:10%;
+}
+
+.a-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
