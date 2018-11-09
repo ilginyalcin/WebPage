@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<meta charset="UTF-8">
+		<title>Marmara Island-Topa&#287;a&#231; Village</title>
+			<style>
+
+			</style>
+	</head>
+
+
+	<body>
+		<div class="container" >
+			<div id="navbar" class="topnav">
+						
+				<a href="index.html">Home</a>
+				<a href="island.html">Island</a>
+				<a href="village.html">Topa&#287;a&#231;</a>
+				<a href="history.html">History</a>
+				<a href="transportation.html">Transportation</a>
+				<a href="things-to-do.html">Things To Do</a>
+				<a href="gallery.html">Gallery</a>
+				
+						
+			</div>
+		</div>
+		
+		
+		<br>
+		<br>
+		<div>
+			<h2 >GALLERY</h2>
+			<hr style="width:250px;">
+			<br>
+			<table>
+				<tr>
+					<td><a href="images/car.jpg" target="_blank"><img src="images/car.jpg" alt="car photo"></a></td>
+					<td><a href="images/pink.jpg" target="_blank"><img src="images/pink.jpg" alt="pinky photo"></a></td>
+					<td><a href="images/kumsal.jpeg" target="_blank"><img src="images/kumsal.jpeg" alt="beach photo"></a></td>
+							
+				</tr>
+						
+				<tr>
+					<td><a href="images/Untitled.jpg" target="_blank"><img src="images/Untitled.jpg" alt="village photo"></a></td>
+					<td><a href="images/sun.jpg" target="_blank"><img src="images/sun.jpg" alt="sun photo"></a></td>
+					<td><video width="300" height="195" controls src="images/storm.mp4" ></video></td>
+							
+				</tr>
+						
+				<tr>
+					<td><a href="images/night2.jpeg" target="_blank" ><img src="images/night2.jpeg" alt="night photo"></a></td>
+					<td><video width="300" height="195" controls src="images/manastir.mp4"></video></td>
+					<td><a href="images/bicycles.jpg" target="_blank" ><img src="images/bicycles.jpg" alt="bicycles photo"></a></td>
+				</tr>
+						
+				<tr>
+					<td><a href="images/cover-photo.jpg" target="_blank" ><img src="images/cover-photo.jpg" alt="sea photo"></a></td>
+					<td><a href="images/tepeden.jpeg" target="_blank" ><img src="images/tepeden.jpeg" alt="view photo"></a></td>
+					<td><a href="images/houses.jpeg" target="_blank" ><img src="images/houses.jpeg" alt="houses photo"></a></td>
+				</tr>
+						
+				<tr>
+					<td><video width="300" height="195" controls src="images/dolphins.mp4" ></video></td>
+					<td><a href="images/serdar--5.jpeg" target="_blank" ><img src="images/serdar--5.jpeg" alt="ship photo"></a></td>
+					<td><a href="images/gunbatimi.jpeg" target="_blank" ><img src="images/gunbatimi.jpeg" alt="sunset photo"></a></td>
+				</tr>
+						
+			</table>
+				
+		</div>
+		<script>
+			window.onscroll = function() {myFunction()};		// When the user scrolls the page, execute myFunction 
+
+			var navbar = document.getElementById("navbar");		// Get the navbar
+			var sticky = navbar.offsetTop;						// Get the offset position of the navbar
+
+			// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+			function myFunction() {
+				if (window.pageYOffset >= sticky) {
+					navbar.classList.add("sticky")
+				} else {
+					navbar.classList.remove("sticky");
+				}
+			}
+		</script>
+	</body>
+</html>

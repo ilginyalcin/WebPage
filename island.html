@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<meta charset="UTF-8">
+		<title>Marmara Island-Topa&#287;a&#231; Village</title>
+			<style>
+
+			</style>
+	</head>
+
+
+	<body>
+		<div class="container">
+			<div id="navbar" class="topnav">
+						
+				<a href="index.html">Home</a>
+				<a href="island.html">Island</a>
+				<a href="village.html">Topağaç</a>
+				<a href="history.html">History</a>
+				<a href="transportation.html">Transportation</a>
+				<a href="things-to-do.html">Things To Do</a>
+				<a href="gallery.html">Gallery</a>
+				
+						
+			</div>
+		</div>
+		
+		<div style="padding-left:25px;" id="island" class="about-the-island">
+			<br>
+			<br>
+			<h2>ABOUT THE MARMARA ISLAND</h2>
+			<hr style="width:400px;">
+			<br>
+			<img style="text-align:center;float:right;padding-top:20px;height: auto; width: auto; max-width: 500px; max-height: 500px;padding-right:10px;" src="images/marmara-adası-nerede.png" alt="location of island">
+			<ul>
+						
+				<li><p>Marmara Island is a district of Balıkesir in the Marmara Sea.</p></li>
+				<li><p>The island has a total of 5 villages : Çınarlı , Gündoğdu , Topağaç , Asmalı , Saraylar and Marmara center.</p></li>
+				<li><p>The <a href="#transportation">transportation</a> to the district is provided by water.</p></li>
+				<li><p>Marmara has made great progress in the production of table olives. Fishing is the main source of livelihood.</p><br></li>
+						
+				<li><p>The island having 15% of Turkey's marble reserves is yet undiscovered by most people due to its simplicity and untouched. 
+				The Marmara marble was used intensively in the Seljuk and Ottoman architecture.We always see Marmara marble in the baths, mosques,
+				fountains and fountains. The Marmara marble was also used in the construction of the Parliament building, which is one of the most 
+				important buildings of the Republican period.</p></li>
+				<li><p>You can see mountain rabbits across the island. Especially at night you can see many rabbits caught in the headlights of your 
+				car. Sometimes foxes may come out. But they are not dangerous at all.</p></li>
+						
+			</ul>
+			<br>
+			<div class="polaroid">
+				<img src="images/marmaraadası.png" alt="photo from island" class="mera">
+				<div class="containee">
+					<p>Marmara Island </p>
+				</div>
+			</div>	
+		
+		</div>
+	
+	
+	
+		<script>
+			window.onscroll = function() {myFunction()};		// When the user scrolls the page, execute myFunction 
+
+			var navbar = document.getElementById("navbar");		// Get the navbar
+			var sticky = navbar.offsetTop;						// Get the offset position of the navbar
+
+			// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+			function myFunction() {
+				if (window.pageYOffset >= sticky) {
+					navbar.classList.add("sticky")
+				} else {
+					navbar.classList.remove("sticky");
+				}
+			}
+		</script>
+	
+	</body>
+</html>
